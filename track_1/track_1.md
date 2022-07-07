@@ -1,51 +1,3 @@
-## print এর আরেক ব্যবহার  : 
-print এর মাঝে কমা (,) মাধ্যমে একাধিক value দিলে তা একলাইনে print করে দেখায়। 
-
-***Program : print_oneline.py***
-```py
-print("string",32,3.2,"d");
-```
-
-***Output : print_oneline.py***
-```
-string 32 3.2 d
-```
-
-## comment 
-কমেন্ট হচ্ছে প্রোগ্রামের ঐ সকল text যেগুলো compiler বা interpreter code execute করার সময় run করবে না, ignore করে চলে যাবে পরিবর্তী নির্দেশনায়। 
-
-> In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. 
-
-
-comment দুই রকম হয়। 
-
-1. Singleline Comment.
-2. Multiline Comment.
-
-নিচে python এ single ও multiline comment এর উদাহরণ দেওয়া হল : 
-
-***Program : comment.py***
-```py
-# singleline comment
-
-'''
-multiline comment
-here.
-'''
-
-"""
-it is also 
-another 
-multiline comment 
-example.
-"""
-```
-
-
-- [পরিবর্তনের কথা](#variable)
-
-
-<a name="variable"></a>
 # পরিবর্তনের কথা
 এই চাপ্টার টাতে আলোচনা করা হয়েছে :
 
@@ -152,7 +104,7 @@ ThisResult = 3; # PascalCase
 # kebab-case = 3;
 ```
 
-![naming convention](./asset/picture/naming-convention-snake-case-kebab-case-camel-case.png)
+![naming convention](./../asset/others/naming-convention-snake-case-kebab-case-camel-case.png)
 
 ## 4 Kind of Datatype ?
 পাইথনে অনেক ধরনের datatype রয়েছে। Datatype হলো data ধরন বা type। নিচে ৪ ধরনের datatype ব্যাখ্যা করা হলো : 
@@ -196,3 +148,8 @@ print(boolean);
 this is string
 True
 ```
+
+<hr />
+
+
+### [< Chapter 0](./../track_0/track_0.md) | [README](./../README.md) | [Chapter 2 >](./../track_2/track_2.md)

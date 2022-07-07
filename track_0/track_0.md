@@ -1,17 +1,3 @@
-![https:://www.github.com/](https://img.shields.io/badge/Github-Programming-blue?style=plastic&logo=github)
-![https://github.com/](https://img.shields.io/badge/Python-Programming_Language-orange)
-![https://github.com/](https://img.shields.io/badge/Py-Basic-blue)
-
-Folder Name
-===========
-information why learning programming
-
-সূচিপত্র
-------------------
-- [শুরুর কথা](#basic)
-
-<a name="basic"></a>
-
 # শুরুর কথা
 
 ### প্রোগ্রাম কী
@@ -70,7 +56,7 @@ int main(void){
 ### Flowchart কী ?
 Algorithm কে চিত্রের মাধ্যমে প্রকাশ করা হলে তাকেই Flowchart বলে। নিচে একটি Nested if else flowchart এর উদাহরণ দেওয়া হলো : 
 
-![Nested If Else](./asset/picture/nested_if_else_flowchart.png)
+![Nested If Else](./../asset/others/nested_if_else_flowchart.png)
 
 ### Translator বা অনুবাদক কী ?
 যার মাধ্যমে কোনো ভাষাকে আরেক ভাষায় অনুবাদ করা হয় তাকে অনুবাদক বা Translator বলে। কিন্তু কম্পিউটার সাইন্সে ভাষায় যে প্রোগ্রাম ব্যবহার করে high, low বা mid level programming language দিয়ে লিখিত প্রোগ্রামকে Machine language রূপান্তর করে তাকে Translator বলে।
@@ -205,3 +191,51 @@ Below the empty string.
 
 Above the empty string.
 ```
+
+## print এর আরেক ব্যবহার  : 
+print এর মাঝে কমা (,) মাধ্যমে একাধিক value দিলে তা একলাইনে print করে দেখায়। 
+
+***Program : print_oneline.py***
+```py
+print("string",32,3.2,"d");
+```
+
+***Output : print_oneline.py***
+```
+string 32 3.2 d
+```
+
+## comment 
+কমেন্ট হচ্ছে প্রোগ্রামের ঐ সকল text যেগুলো compiler বা interpreter code execute করার সময় run করবে না, ignore করে চলে যাবে পরিবর্তী নির্দেশনায়। 
+
+> In computer programming, a comment is a programmer-readable explanation or annotation in the source code of a computer program. 
+
+
+comment দুই রকম হয়। 
+
+1. Singleline Comment.
+2. Multiline Comment.
+
+নিচে python এ single ও multiline comment এর উদাহরণ দেওয়া হল : 
+
+***Program : comment.py***
+```py
+# singleline comment
+
+'''
+multiline comment
+here.
+'''
+
+"""
+it is also 
+another 
+multiline comment 
+example.
+"""
+```
+
+<hr />
+
+[< README](./../README.md) || [Chapter 1 >](./../track_1/track_1.md)
+---------------------------------------------------------------------------------
